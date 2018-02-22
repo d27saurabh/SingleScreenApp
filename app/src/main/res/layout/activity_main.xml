@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.d27saurabh.singlescreenapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/invodota"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/dotalogo"
+        android:scaleType="centerCrop"
+        android:id="@+id/logoImageView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:text="Team Liquid-Dota 2"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:paddingTop="18dp"
+        android:layout_toRightOf="@+id/logoImageView"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liquid.Miracle~"
+            android:textSize="24dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/Miracle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="TI7- KeyAreana Seattle"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liquid.Miracle@TI7.com"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="571-444-9577"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9am to 5pm"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
